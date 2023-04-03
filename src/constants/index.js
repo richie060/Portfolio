@@ -35,13 +35,14 @@ import {
       title: "Work",
     },
     {
-      id: "contact",
-      title: "Contact",
-    },
-    {
       id: "services",
       title: "Services",
     },
+    {
+      id: "contact",
+      title: "Contact",
+    },
+   
   ];
   
   const services = [
@@ -50,7 +51,7 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Mobile App Developer",
       icon: mobile,
     },
     {
@@ -58,7 +59,7 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "UI UX Designer",
       icon: creator,
     },
   ];
@@ -76,18 +77,18 @@ import {
       name: "JavaScript",
       icon: javascript,
     },
-    {
-      name: "TypeScript",
-      icon: typescript,
-    },
+    // {
+    //   name: "TypeScript",
+    //   icon: typescript,
+    // },
     {
       name: "React JS",
       icon: reactjs,
     },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
+    // {
+    //   name: "Redux Toolkit",
+    //   icon: redux,
+    // },
     {
       name: "Tailwind CSS",
       icon: tailwind,
@@ -120,102 +121,113 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
+      title: "UI UX Designer",
+      company_name: "Freelancing (Fiver, upwork etc.)",
       icon: starbucks,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "March 2020 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Designed a mobile app from conception  to delivery",
+        "Conducted User Research and User Testing",
+        "Designed creative and intuitive website.", 
+        "Wireframing in lo-fi hi-fi prototyping.", 
+        "Helped to build brand assets.",
+        "Managed the projects using Agile development framework to assure efficiency and quality delivery",
+        "Designed the application / customizing user flow  Developed the app in Figma "
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      title: "Android app Developer",
+      company_name: "Final year Project",
+      icon: shopify,
+      iconBg: "#383E56",
+      date: "May 2022 - Jul 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        " Lead a team of 4+ developers in the success full design and development of Tujibonge application of native  navigation features.", 
+        "Migrated the Android code base to suit MVVM architecture which made the code more maintainable and crash Free.", 
+        "Collaborated with API Developers to provide data to the app through RESTful APIs, JSON",
+        "Developed creative and intuitive Application.",
+        "Guiding teams in Developing and debugging android apps using MVVM architecture using Kotlin.",
+        "Providing guidance in API integration.",
+        "Guided the teams how to use RESTful APIs.",
+        "Responsible for resolving bugs and production issues along with writing clean , well-tested, maintainable and re-usable code using MVVM Architecture. "
       ],
     },
     {
       title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
       company_name: "Meta",
       icon: meta,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "Jan 2022 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Guiding teams in Wireframing in lo-fi hi-fi prototyping.",
+       " Guiding teams in Developing and debugging Web apps using MVC architecture using PHP, SQL and Javascript",
+        "Guiding teams in implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
+        " Conducted website audits, identified technical SEO issues, and implemented solutions to improve website crawlability and indexation",
+        " Optimized website content, including meta tags and header tags, to improve search engine rankings and drive organic traffic",
       ],
     },
+    {
+      title: "ICT Technician",
+      company_name: "Nyahururu county referal hospital",
+      icon: tesla,
+      iconBg: "#E6DEDD",
+      date: "Aug 2022 - Oct 2022",
+      points: [
+        "Troubleshooting Information systems (Check Health Information System)",
+        "Configuring Servers, Routers and Switche",
+        "Hardware installation",
+        "Configuring proxy settings.",
+        "Monitoring the proxy server to ensure every user has access to the network",
+        "Troubleshooting network and Software",
+      ],},
   ];
   
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
+        "I thought it was impossible to make a website as beautiful as our product, but Richard proved me wrong.",
+      name: "Sam Mburu",
+      designation: "Software Developer ",
+      company: "Kenya Airlift",
       image: "https://randomuser.me/api/portraits/women/4.jpg",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
+        "I've never met a UI  who truly cares about their clients' success like Richard does.",
+      name: "Mike muturi",
+      designation: "Web Developer",
+      company: "Reasons Agency",
       image: "https://randomuser.me/api/portraits/men/5.jpg",
     },
+   
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
+        "After Richard optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      name: "Jackie Chelera",
+      designation: "Project Manager",
+      company: "Andela",
       image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
   ];
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Company Id",
       description:
         "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
       tags: [
         {
-          name: "react",
+          name: "Figma",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "Photoshop",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "UI UX Design",
           color: "pink-text-gradient",
         },
       ],
@@ -223,16 +235,16 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "View Poa",
       description:
         "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
       tags: [
         {
-          name: "react",
+          name: "Figma",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "UI UX Design",
           color: "green-text-gradient",
         },
         {
@@ -244,26 +256,27 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
+      name: "Logo Design",
       description:
         "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
       tags: [
         {
-          name: "nextjs",
+          name: "Figma",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "Adobe illustrator",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "Photoshop",
           color: "pink-text-gradient",
         },
       ],
       image: tripguide,
       source_code_link: "https://github.com/",
     },
+    
   ];
   
   export { services, technologies, experiences, testimonials, projects };
