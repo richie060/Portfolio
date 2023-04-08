@@ -241,7 +241,7 @@ import {
     {
       name: "View Poa",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "This application is designed for wheelchair-accessible places.On View poa everyone from all over the world can find and add places, rate them by using traffic light system.The app shall help wheelchair users and people with mobility impairements to plan their day more effectively.E.g when accessing hotels, institution , etc. Designed in Figma",
       tags: [
         {
           name: "Figma",
